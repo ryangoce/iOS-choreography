@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E3E5021BCFA27500E61C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5011BCFA27500E61C9A /* main.m */; };
+		D6E3E5051BCFA27500E61C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5041BCFA27500E61C9A /* AppDelegate.m */; };
+		D6E3E5081BCFA27500E61C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5071BCFA27500E61C9A /* ViewController.m */; };
+		D6E3E50B1BCFA27500E61C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E3E5091BCFA27500E61C9A /* Main.storyboard */; };
+		D6E3E50D1BCFA27500E61C9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E3E50C1BCFA27500E61C9A /* Images.xcassets */; };
+		D6E3E5101BCFA27500E61C9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E3E50E1BCFA27500E61C9A /* LaunchScreen.xib */; };
+		D6E3E51C1BCFA27500E61C9A /* iOS_choreographyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E51B1BCFA27500E61C9A /* iOS_choreographyTests.m */; };
+		D6E3E54D1BCFA2ED00E61C9A /* RGCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5291BCFA2ED00E61C9A /* RGCoreDataStorage.m */; };
+		D6E3E5531BCFA2ED00E61C9A /* RGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5401BCFA2ED00E61C9A /* RGLoginViewController.m */; };
+		D6E3E5541BCFA2ED00E61C9A /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5441BCFA2ED00E61C9A /* GCDMulticastDelegate.m */; };
+		D6E3E5551BCFA2ED00E61C9A /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5471BCFA2ED00E61C9A /* NSString+Extensions.m */; };
+		D6E3E5561BCFA2ED00E61C9A /* RGCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E54A1BCFA2ED00E61C9A /* RGCancellationTokenSource.m */; };
+		D6E3E5571BCFA2ED00E61C9A /* RGCancelToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E54C1BCFA2ED00E61C9A /* RGCancelToken.m */; };
+		D6E3E56E1BCFA51D00E61C9A /* RGAccountService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E55F1BCFA51D00E61C9A /* RGAccountService.m */; };
+		D6E3E56F1BCFA51D00E61C9A /* RGService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5631BCFA51D00E61C9A /* RGService.m */; };
+		D6E3E5701BCFA51D00E61C9A /* RGLoginEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5671BCFA51D00E61C9A /* RGLoginEvent.m */; };
+		D6E3E5721BCFA51D00E61C9A /* RGUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E56D1BCFA51D00E61C9A /* RGUploadService.m */; };
+		D6E3E5761BCFA64D00E61C9A /* RGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5751BCFA64D00E61C9A /* RGUser.m */; };
+		D6E3E5791BCFA68100E61C9A /* RGLogoutEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E5781BCFA68100E61C9A /* RGLogoutEvent.m */; };
+		D6E3E57D1BCFAB2400E61C9A /* RGFileUploadedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3E57C1BCFAB2400E61C9A /* RGFileUploadedEvent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E3E5161BCFA27500E61C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E3E4F41BCFA27500E61C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E3E4FB1BCFA27500E61C9A;
+			remoteInfo = "iOS-choreography";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6E3E4FC1BCFA27500E61C9A /* iOS-choreography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-choreography.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3E5001BCFA27500E61C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E3E5011BCFA27500E61C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6E3E5031BCFA27500E61C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6E3E5041BCFA27500E61C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6E3E5061BCFA27500E61C9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6E3E5071BCFA27500E61C9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6E3E50A1BCFA27500E61C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E3E50C1BCFA27500E61C9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6E3E50F1BCFA27500E61C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6E3E5151BCFA27500E61C9A /* iOS-choreographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-choreographyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3E51A1BCFA27500E61C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E3E51B1BCFA27500E61C9A /* iOS_choreographyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_choreographyTests.m; sourceTree = "<group>"; };
+		D6E3E5271BCFA2ED00E61C9A /* RGCoreDataStorage+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RGCoreDataStorage+Protected.h"; sourceTree = "<group>"; };
+		D6E3E5281BCFA2ED00E61C9A /* RGCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCoreDataStorage.h; sourceTree = "<group>"; };
+		D6E3E5291BCFA2ED00E61C9A /* RGCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCoreDataStorage.m; sourceTree = "<group>"; };
+		D6E3E53F1BCFA2ED00E61C9A /* RGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLoginViewController.h; sourceTree = "<group>"; };
+		D6E3E5401BCFA2ED00E61C9A /* RGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLoginViewController.m; sourceTree = "<group>"; };
+		D6E3E5431BCFA2ED00E61C9A /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
+		D6E3E5441BCFA2ED00E61C9A /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegate.m; sourceTree = "<group>"; };
+		D6E3E5461BCFA2ED00E61C9A /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		D6E3E5471BCFA2ED00E61C9A /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		D6E3E5491BCFA2ED00E61C9A /* RGCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCancellationTokenSource.h; sourceTree = "<group>"; };
+		D6E3E54A1BCFA2ED00E61C9A /* RGCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCancellationTokenSource.m; sourceTree = "<group>"; };
+		D6E3E54B1BCFA2ED00E61C9A /* RGCancelToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCancelToken.h; sourceTree = "<group>"; };
+		D6E3E54C1BCFA2ED00E61C9A /* RGCancelToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCancelToken.m; sourceTree = "<group>"; };
+		D6E3E55E1BCFA51D00E61C9A /* RGAccountService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAccountService.h; sourceTree = "<group>"; };
+		D6E3E55F1BCFA51D00E61C9A /* RGAccountService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGAccountService.m; sourceTree = "<group>"; };
+		D6E3E5611BCFA51D00E61C9A /* RGService+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RGService+Protected.h"; sourceTree = "<group>"; };
+		D6E3E5621BCFA51D00E61C9A /* RGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGService.h; sourceTree = "<group>"; };
+		D6E3E5631BCFA51D00E61C9A /* RGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGService.m; sourceTree = "<group>"; };
+		D6E3E5661BCFA51D00E61C9A /* RGLoginEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLoginEvent.h; sourceTree = "<group>"; };
+		D6E3E5671BCFA51D00E61C9A /* RGLoginEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLoginEvent.m; sourceTree = "<group>"; };
+		D6E3E56C1BCFA51D00E61C9A /* RGUploadService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGUploadService.h; sourceTree = "<group>"; };
+		D6E3E56D1BCFA51D00E61C9A /* RGUploadService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGUploadService.m; sourceTree = "<group>"; };
+		D6E3E5741BCFA64D00E61C9A /* RGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGUser.h; sourceTree = "<group>"; };
+		D6E3E5751BCFA64D00E61C9A /* RGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGUser.m; sourceTree = "<group>"; };
+		D6E3E5771BCFA68100E61C9A /* RGLogoutEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLogoutEvent.h; sourceTree = "<group>"; };
+		D6E3E5781BCFA68100E61C9A /* RGLogoutEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLogoutEvent.m; sourceTree = "<group>"; };
+		D6E3E57B1BCFAB2400E61C9A /* RGFileUploadedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGFileUploadedEvent.h; sourceTree = "<group>"; };
+		D6E3E57C1BCFAB2400E61C9A /* RGFileUploadedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGFileUploadedEvent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E3E4F91BCFA27500E61C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3E5121BCFA27500E61C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E3E4F31BCFA27500E61C9A = {
+			isa = PBXGroup;
+			children = (
+				D6E3E4FE1BCFA27500E61C9A /* iOS-choreography */,
+				D6E3E5181BCFA27500E61C9A /* iOS-choreographyTests */,
+				D6E3E4FD1BCFA27500E61C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E3E4FD1BCFA27500E61C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E4FC1BCFA27500E61C9A /* iOS-choreography.app */,
+				D6E3E5151BCFA27500E61C9A /* iOS-choreographyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E3E4FE1BCFA27500E61C9A /* iOS-choreography */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E55C1BCFA51D00E61C9A /* Services */,
+				D6E3E5251BCFA2ED00E61C9A /* Data */,
+				D6E3E53C1BCFA2ED00E61C9A /* UI */,
+				D6E3E5411BCFA2ED00E61C9A /* Utilities */,
+				D6E3E5031BCFA27500E61C9A /* AppDelegate.h */,
+				D6E3E5041BCFA27500E61C9A /* AppDelegate.m */,
+				D6E3E5061BCFA27500E61C9A /* ViewController.h */,
+				D6E3E5071BCFA27500E61C9A /* ViewController.m */,
+				D6E3E5091BCFA27500E61C9A /* Main.storyboard */,
+				D6E3E50C1BCFA27500E61C9A /* Images.xcassets */,
+				D6E3E50E1BCFA27500E61C9A /* LaunchScreen.xib */,
+				D6E3E4FF1BCFA27500E61C9A /* Supporting Files */,
+			);
+			path = "iOS-choreography";
+			sourceTree = "<group>";
+		};
+		D6E3E4FF1BCFA27500E61C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5001BCFA27500E61C9A /* Info.plist */,
+				D6E3E5011BCFA27500E61C9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6E3E5181BCFA27500E61C9A /* iOS-choreographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E51B1BCFA27500E61C9A /* iOS_choreographyTests.m */,
+				D6E3E5191BCFA27500E61C9A /* Supporting Files */,
+			);
+			path = "iOS-choreographyTests";
+			sourceTree = "<group>";
+		};
+		D6E3E5191BCFA27500E61C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E51A1BCFA27500E61C9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6E3E5251BCFA2ED00E61C9A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5261BCFA2ED00E61C9A /* RGCoreDataStorage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6E3E5261BCFA2ED00E61C9A /* RGCoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5271BCFA2ED00E61C9A /* RGCoreDataStorage+Protected.h */,
+				D6E3E5281BCFA2ED00E61C9A /* RGCoreDataStorage.h */,
+				D6E3E5291BCFA2ED00E61C9A /* RGCoreDataStorage.m */,
+			);
+			path = RGCoreDataStorage;
+			sourceTree = "<group>";
+		};
+		D6E3E53C1BCFA2ED00E61C9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E53D1BCFA2ED00E61C9A /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D6E3E53D1BCFA2ED00E61C9A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E53E1BCFA2ED00E61C9A /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D6E3E53E1BCFA2ED00E61C9A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E53F1BCFA2ED00E61C9A /* RGLoginViewController.h */,
+				D6E3E5401BCFA2ED00E61C9A /* RGLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D6E3E5411BCFA2ED00E61C9A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5421BCFA2ED00E61C9A /* GCDMulticastDelegate */,
+				D6E3E5451BCFA2ED00E61C9A /* NSStringExtensions */,
+				D6E3E5481BCFA2ED00E61C9A /* RGCancelToken */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6E3E5421BCFA2ED00E61C9A /* GCDMulticastDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5431BCFA2ED00E61C9A /* GCDMulticastDelegate.h */,
+				D6E3E5441BCFA2ED00E61C9A /* GCDMulticastDelegate.m */,
+			);
+			path = GCDMulticastDelegate;
+			sourceTree = "<group>";
+		};
+		D6E3E5451BCFA2ED00E61C9A /* NSStringExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5461BCFA2ED00E61C9A /* NSString+Extensions.h */,
+				D6E3E5471BCFA2ED00E61C9A /* NSString+Extensions.m */,
+			);
+			path = NSStringExtensions;
+			sourceTree = "<group>";
+		};
+		D6E3E5481BCFA2ED00E61C9A /* RGCancelToken */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5491BCFA2ED00E61C9A /* RGCancellationTokenSource.h */,
+				D6E3E54A1BCFA2ED00E61C9A /* RGCancellationTokenSource.m */,
+				D6E3E54B1BCFA2ED00E61C9A /* RGCancelToken.h */,
+				D6E3E54C1BCFA2ED00E61C9A /* RGCancelToken.m */,
+			);
+			path = RGCancelToken;
+			sourceTree = "<group>";
+		};
+		D6E3E55C1BCFA51D00E61C9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E55D1BCFA51D00E61C9A /* Account */,
+				D6E3E5601BCFA51D00E61C9A /* Base */,
+				D6E3E5641BCFA51D00E61C9A /* Models */,
+				D6E3E56B1BCFA51D00E61C9A /* Upload */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6E3E55D1BCFA51D00E61C9A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E55E1BCFA51D00E61C9A /* RGAccountService.h */,
+				D6E3E55F1BCFA51D00E61C9A /* RGAccountService.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		D6E3E5601BCFA51D00E61C9A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5611BCFA51D00E61C9A /* RGService+Protected.h */,
+				D6E3E5621BCFA51D00E61C9A /* RGService.h */,
+				D6E3E5631BCFA51D00E61C9A /* RGService.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D6E3E5641BCFA51D00E61C9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5731BCFA63100E61C9A /* Objects */,
+				D6E3E5651BCFA51D00E61C9A /* Events */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6E3E5651BCFA51D00E61C9A /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E57B1BCFAB2400E61C9A /* RGFileUploadedEvent.h */,
+				D6E3E57C1BCFAB2400E61C9A /* RGFileUploadedEvent.m */,
+				D6E3E5661BCFA51D00E61C9A /* RGLoginEvent.h */,
+				D6E3E5671BCFA51D00E61C9A /* RGLoginEvent.m */,
+				D6E3E5771BCFA68100E61C9A /* RGLogoutEvent.h */,
+				D6E3E5781BCFA68100E61C9A /* RGLogoutEvent.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		D6E3E56B1BCFA51D00E61C9A /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E56C1BCFA51D00E61C9A /* RGUploadService.h */,
+				D6E3E56D1BCFA51D00E61C9A /* RGUploadService.m */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		D6E3E5731BCFA63100E61C9A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3E5741BCFA64D00E61C9A /* RGUser.h */,
+				D6E3E5751BCFA64D00E61C9A /* RGUser.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E3E4FB1BCFA27500E61C9A /* iOS-choreography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E3E51F1BCFA27500E61C9A /* Build configuration list for PBXNativeTarget "iOS-choreography" */;
+			buildPhases = (
+				D6E3E4F81BCFA27500E61C9A /* Sources */,
+				D6E3E4F91BCFA27500E61C9A /* Frameworks */,
+				D6E3E4FA1BCFA27500E61C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-choreography";
+			productName = "iOS-choreography";
+			productReference = D6E3E4FC1BCFA27500E61C9A /* iOS-choreography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E3E5141BCFA27500E61C9A /* iOS-choreographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E3E5221BCFA27500E61C9A /* Build configuration list for PBXNativeTarget "iOS-choreographyTests" */;
+			buildPhases = (
+				D6E3E5111BCFA27500E61C9A /* Sources */,
+				D6E3E5121BCFA27500E61C9A /* Frameworks */,
+				D6E3E5131BCFA27500E61C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E3E5171BCFA27500E61C9A /* PBXTargetDependency */,
+			);
+			name = "iOS-choreographyTests";
+			productName = "iOS-choreographyTests";
+			productReference = D6E3E5151BCFA27500E61C9A /* iOS-choreographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E3E4F41BCFA27500E61C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ryan Goce";
+				TargetAttributes = {
+					D6E3E4FB1BCFA27500E61C9A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D6E3E5141BCFA27500E61C9A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D6E3E4FB1BCFA27500E61C9A;
+					};
+				};
+			};
+			buildConfigurationList = D6E3E4F71BCFA27500E61C9A /* Build configuration list for PBXProject "iOS-choreography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E3E4F31BCFA27500E61C9A;
+			productRefGroup = D6E3E4FD1BCFA27500E61C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E3E4FB1BCFA27500E61C9A /* iOS-choreography */,
+				D6E3E5141BCFA27500E61C9A /* iOS-choreographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E3E4FA1BCFA27500E61C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3E50B1BCFA27500E61C9A /* Main.storyboard in Resources */,
+				D6E3E5101BCFA27500E61C9A /* LaunchScreen.xib in Resources */,
+				D6E3E50D1BCFA27500E61C9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3E5131BCFA27500E61C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E3E4F81BCFA27500E61C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3E5531BCFA2ED00E61C9A /* RGLoginViewController.m in Sources */,
+				D6E3E5561BCFA2ED00E61C9A /* RGCancellationTokenSource.m in Sources */,
+				D6E3E5541BCFA2ED00E61C9A /* GCDMulticastDelegate.m in Sources */,
+				D6E3E56F1BCFA51D00E61C9A /* RGService.m in Sources */,
+				D6E3E5551BCFA2ED00E61C9A /* NSString+Extensions.m in Sources */,
+				D6E3E5081BCFA27500E61C9A /* ViewController.m in Sources */,
+				D6E3E5571BCFA2ED00E61C9A /* RGCancelToken.m in Sources */,
+				D6E3E56E1BCFA51D00E61C9A /* RGAccountService.m in Sources */,
+				D6E3E5051BCFA27500E61C9A /* AppDelegate.m in Sources */,
+				D6E3E57D1BCFAB2400E61C9A /* RGFileUploadedEvent.m in Sources */,
+				D6E3E5761BCFA64D00E61C9A /* RGUser.m in Sources */,
+				D6E3E5701BCFA51D00E61C9A /* RGLoginEvent.m in Sources */,
+				D6E3E5791BCFA68100E61C9A /* RGLogoutEvent.m in Sources */,
+				D6E3E5021BCFA27500E61C9A /* main.m in Sources */,
+				D6E3E5721BCFA51D00E61C9A /* RGUploadService.m in Sources */,
+				D6E3E54D1BCFA2ED00E61C9A /* RGCoreDataStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3E5111BCFA27500E61C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E3E51C1BCFA27500E61C9A /* iOS_choreographyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E3E5171BCFA27500E61C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E3E4FB1BCFA27500E61C9A /* iOS-choreography */;
+			targetProxy = D6E3E5161BCFA27500E61C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E3E5091BCFA27500E61C9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E3E50A1BCFA27500E61C9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E3E50E1BCFA27500E61C9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E3E50F1BCFA27500E61C9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E3E51D1BCFA27500E61C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6E3E51E1BCFA27500E61C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E3E5201BCFA27500E61C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-choreography/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6E3E5211BCFA27500E61C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-choreography/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6E3E5231BCFA27500E61C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-choreographyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-choreography.app/iOS-choreography";
+			};
+			name = Debug;
+		};
+		D6E3E5241BCFA27500E61C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-choreographyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-choreography.app/iOS-choreography";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E3E4F71BCFA27500E61C9A /* Build configuration list for PBXProject "iOS-choreography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3E51D1BCFA27500E61C9A /* Debug */,
+				D6E3E51E1BCFA27500E61C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E3E51F1BCFA27500E61C9A /* Build configuration list for PBXNativeTarget "iOS-choreography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3E5201BCFA27500E61C9A /* Debug */,
+				D6E3E5211BCFA27500E61C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6E3E5221BCFA27500E61C9A /* Build configuration list for PBXNativeTarget "iOS-choreographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E3E5231BCFA27500E61C9A /* Debug */,
+				D6E3E5241BCFA27500E61C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E3E4F41BCFA27500E61C9A /* Project object */;
+}
